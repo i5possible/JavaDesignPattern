@@ -18,7 +18,7 @@ public class OperationFactory {
             default :
                 operation = Optional.empty();
                 break;
-        }
+            }
         return operation;
     }
 }
