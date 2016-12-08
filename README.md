@@ -1,2 +1,2 @@
-# java_design_pattern
+# JavaDesignPattern
 This Repository is used for design pattern learning.
