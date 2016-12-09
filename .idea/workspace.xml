@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ebf04c2-4f9b-4c85-b29d-ad21b3278cb5" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/FactoryMethod/IOperationFactoryTest.java" afterPath="$PROJECT_DIR$/test/FactoryMethod/OperationFactoryTest.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/test/SimpleFactory/IOperationFactoryTest.java" afterPath="$PROJECT_DIR$/test/SimpleFactory/OperationFactoryTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AbstractFactory/IOperationFactory.java" afterPath="$PROJECT_DIR$/src/AbstractFactory/IOperationFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FactoryMethod/IOperation.java" afterPath="$PROJECT_DIR$/src/FactoryMethod/IOperation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FactoryMethod/IOperationFactory.java" afterPath="$PROJECT_DIR$/src/FactoryMethod/IOperationFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FactoryMethod/OperationAdd.java" afterPath="$PROJECT_DIR$/src/FactoryMethod/OperationAdd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FactoryMethod/OperationMinus.java" afterPath="$PROJECT_DIR$/src/FactoryMethod/OperationMinus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SimpleFactory/Operation.java" afterPath="$PROJECT_DIR$/src/SimpleFactory/Operation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SimpleFactory/OperationAdd.java" afterPath="$PROJECT_DIR$/src/SimpleFactory/OperationAdd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SimpleFactory/OperationFactory.java" afterPath="$PROJECT_DIR$/src/SimpleFactory/OperationFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SimpleFactory/OperationMinus.java" afterPath="$PROJECT_DIR$/src/SimpleFactory/OperationMinus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy/Sort.java" afterPath="$PROJECT_DIR$/src/Strategy/Sort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy/StrategyContext.java" afterPath="$PROJECT_DIR$/src/Strategy/StrategyContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/FactoryMethod/OperationFactoryTest.java" afterPath="$PROJECT_DIR$/test/FactoryMethod/OperationFactoryTest.java" />
     </list>
     <ignored path="java_design_pattern.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,22 +71,10 @@
         </entry>
       </file>
       <file leaf-file-name="OperationFactoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/SimpleFactory/OperationFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperationFactoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/FactoryMethod/OperationFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,16 +92,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StrategyContext.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StrategyContext.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Strategy/StrategyContext.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,7 +127,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectSort.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SelectSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Strategy/SelectSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -178,10 +177,10 @@
         <option value="$PROJECT_DIR$/src/AbstractFactory/IOperationFactory.java" />
         <option value="$PROJECT_DIR$/test/FactoryMethod/IOperationFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/Strategy/Sort.java" />
-        <option value="$PROJECT_DIR$/src/Strategy/StrategyContext.java" />
         <option value="$PROJECT_DIR$/src/Strategy/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/Strategy/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/Strategy/SelectSort.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/StrategyContext.java" />
       </list>
     </option>
   </component>
@@ -293,6 +292,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FactoryMethod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaDesignPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaDesignPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Strategy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -900,7 +917,7 @@
       <updated>1481175174230</updated>
       <workItem from="1481175175364" duration="3970000" />
       <workItem from="1481183801814" duration="2414000" />
-      <workItem from="1481187132213" duration="5317000" />
+      <workItem from="1481187132213" duration="5685000" />
     </task>
     <servers />
   </component>
@@ -919,7 +936,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11701000" />
+    <option name="totallyTimeSpent" value="12069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1028,7 +1045,7 @@
         <state relative-caret-position="45">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1161,7 +1178,7 @@
         <state relative-caret-position="135">
           <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
           <folding>
-            <element signature="e#26#72#0" expanded="false" />
+            <element signature="e#26#69#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1198,7 +1215,7 @@
         <state relative-caret-position="375">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1206,7 +1223,7 @@
     <entry file="file://$PROJECT_DIR$/test/FactoryMethod/OperationFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1218,6 +1235,19 @@
         <state relative-caret-position="135">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/StrategyContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1242,19 +1272,6 @@
         <state relative-caret-position="120">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/StrategyContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

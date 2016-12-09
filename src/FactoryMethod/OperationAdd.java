@@ -5,11 +5,11 @@ package FactoryMethod;
  */
 
 /**
-An Instance of the concrete product.
+ * An Instance of the concrete product.
  */
 public class OperationAdd implements IOperation {
     @Override
-    public Double getResult(Double numberA,Double numberB) {
+    public Double getResult(Double numberA, Double numberB) {
         return numberA + numberB;
     }
 }

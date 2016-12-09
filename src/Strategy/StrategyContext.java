@@ -8,11 +8,11 @@ import java.util.List;
 public class StrategyContext {
     private Sort sort;
 
-    public StrategyContext (Sort sort) {
+    public StrategyContext(Sort sort) {
         this.sort = sort;
     }
 
-    public List listSort (List inputList ) {
+    public List listSort(List inputList) {
         return this.sort.listSort(inputList);
     }
 }

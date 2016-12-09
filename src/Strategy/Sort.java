@@ -11,5 +11,5 @@ import java.util.List;
  * Define the public interface of the algorithms.
  */
 public interface Sort<E> {
-    public List listSort (List inputList);
+    public List listSort(List inputList);
 }
