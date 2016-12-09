@@ -1,4 +1,4 @@
-package SimpleFactory;
+package FactoryMethod;
 
 /**
  * Created by hliang on 08/12/2016.
@@ -9,6 +9,6 @@ package SimpleFactory;
  It's define a interface to create a series of objects.
  */
 
-public interface Operation {
+public interface IOperation {
     public Double getResult(Double numberA, Double numberB);
 }
