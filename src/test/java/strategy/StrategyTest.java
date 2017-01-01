@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StrategyTest {
+    // This test verified nothing. I just use the test to print the value.
     @Test
     public void shouldPrintSortTypeWhenCalled () throws ClassNotFoundException, IllegalAccessException, InstantiationException {
         List<String> classList = new ArrayList<String>();
