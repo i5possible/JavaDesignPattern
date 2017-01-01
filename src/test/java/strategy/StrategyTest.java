@@ -8,7 +8,7 @@ import java.util.List;
 public class StrategyTest {
     // This test verified nothing. I just use the test to print the value.
     @Test
-    public void shouldPrintSortTypeWhenCalled () throws ClassNotFoundException, IllegalAccessException, InstantiationException {
+    public void shouldPrintSortTypeWhenCalled() throws ClassNotFoundException, IllegalAccessException, InstantiationException {
         List<String> classList = new ArrayList<String>();
         classList.add("strategy.BubbleSort");
         classList.add("strategy.QuickSort");
@@ -16,7 +16,7 @@ public class StrategyTest {
         classList.forEach(this::doSort);
     }
 
-    public void doSort (String sortType) {
+    public void doSort(String sortType) {
         Sort sort = null;
         try {
             sort = (Sort) Class.forName(sortType).newInstance();

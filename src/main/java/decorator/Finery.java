@@ -1,6 +1,6 @@
 package decorator;
 
-public class Finery extends Person{
+public class Finery extends Person {
     protected Person person;
 
     public void decorator(Person person) {
@@ -8,7 +8,7 @@ public class Finery extends Person{
     }
 
     @Override
-    public void show () {
+    public void show() {
         if (person != null) {
             person.show();
         }

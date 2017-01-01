@@ -13,9 +13,9 @@ public class ConcretePrototype extends Prototype {
      * The 'substring(0)' return a new String.
      * The new StuffInPrototype(stuffInPrototype.getName()) is a new Object either.
      * So the two ConcretePrototype contains different object.
-     *
+     * <p>
      * If use
-     *      return new ConcretePrototype(this.getId(), this.getStuffInProtoType());
+     * return new ConcretePrototype(this.getId(), this.getStuffInProtoType());
      * The 'id' and the 'stuffInPrototype' is the same. When the cloned object is changed. The origin object is
      * changed either. This is called slight copy.
      */

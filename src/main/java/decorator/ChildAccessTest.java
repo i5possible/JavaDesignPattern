@@ -5,7 +5,7 @@ package decorator;
  * to the package. Even a class extends the base class, it can't use the default modifier modified method or
  * variable. But a protected method or variable can be used even the child class isn't in the same package with the
  * father class.
- *
+ * <p>
  * This example isn't showed in the follow example. Because I'd like the them in the same package.
  * You can try it in a child package.
  */

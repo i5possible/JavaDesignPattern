@@ -10,14 +10,14 @@ import java.util.List;
  * Concrete Strategy.
  */
 public class BubbleSort implements Sort {
+    public static void main(String[] args) throws ClassNotFoundException {
+        Class<?> bubbleSort = Class.forName("strategy.BubbleSort");
+        System.out.println(bubbleSort);
+    }
+
     @Override
     public List listSort(List inputList) {
         System.out.println("BubbleSort");
         return null;
-    }
-
-    public static void main(String[] args) throws ClassNotFoundException {
-        Class<?> bubbleSort = Class.forName("strategy.BubbleSort");
-        System.out.println(bubbleSort);
     }
 }

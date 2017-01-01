@@ -6,7 +6,7 @@ public class StuffInPrototype {
     public StuffInPrototype() {
     }
 
-    public StuffInPrototype( String name) {
+    public StuffInPrototype(String name) {
         this.name = name;
     }
 
