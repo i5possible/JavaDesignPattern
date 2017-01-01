@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * Created by hliang on 08/12/2016.
  */
-public class OperationFactoryTest {
+public class OperationFactoryMethodTest {
     @Test
     public void OperationAddTest() {
         IOperation ioperation = new OperationAddFactory().getOperation();
