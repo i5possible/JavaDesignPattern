@@ -1,4 +1,4 @@
-package SimpleFactory;
+package simplefactory;
 
 import java.util.Optional;
 

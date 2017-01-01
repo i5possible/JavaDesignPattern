@@ -1,4 +1,4 @@
-package SimpleFactory;
+package simplefactory;
 
 /**
  * Created by hliang on 08/12/2016.

@@ -1,4 +1,4 @@
-package SimpleFactory;
+package simplefactory;
 
 import org.junit.Assert;
 import org.junit.Test;

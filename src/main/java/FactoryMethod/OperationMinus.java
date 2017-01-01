@@ -1,4 +1,4 @@
-package FactoryMethod;
+package factorymethod;
 
 /**
  * Created by hliang on 08/12/2016.
