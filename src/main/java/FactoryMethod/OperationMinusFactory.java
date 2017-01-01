@@ -7,9 +7,9 @@ package factorymethod;
 /*
 And instance of concrete factory.
  */
-public class OperationMinusFactory implements IOperationFactory {
+public class OperationMinusFactory implements OperationFactory {
     @Override
-    public IOperation getOperation() {
+    public Operation getOperation() {
         return new OperationMinus();
     }
 }

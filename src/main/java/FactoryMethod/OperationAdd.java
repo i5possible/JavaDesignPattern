@@ -7,7 +7,7 @@ package factorymethod;
 /**
  * An Instance of the concrete product.
  */
-public class OperationAdd implements IOperation {
+public class OperationAdd implements Operation {
     @Override
     public Double getResult(Double numberA, Double numberB) {
         return numberA + numberB;
