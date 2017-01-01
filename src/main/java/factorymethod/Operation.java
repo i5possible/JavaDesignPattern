@@ -10,6 +10,10 @@ package factorymethod;
  * It's define a interface to create a series of objects.
  */
 
+/**
+ * This package is created by myself. So it's different from the book.
+ */
+
 public interface Operation {
     public Double getResult(Double numberA, Double numberB);
 }
