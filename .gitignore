@@ -1,8 +1,18 @@
 build
-class/
-bin/
+bin
+
+classes/
+out/
 
 .gradle
-.idea/
 gradle*
 
+.idea
+*.iml
+*.ipr
+*.iws
+
+.classpath
+.project
+.settings
+.DS_Store
