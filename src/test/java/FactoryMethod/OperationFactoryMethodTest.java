@@ -9,13 +9,13 @@ import org.junit.Test;
 public class OperationFactoryMethodTest {
     @Test
     public void OperationAddTest() {
-        IOperation ioperation = new OperationAddFactory().getOperation();
+        Operation ioperation = new OperationAddFactory().getOperation();
         Assert.assertEquals(3.3, ioperation.getResult(1.1, 2.2), 1e-9);
     }
 
     @Test
     public void OperationMinusTest() {
-        IOperation ioperation = new OperationMinusFactory().getOperation();
+        Operation ioperation = new OperationMinusFactory().getOperation();
         Assert.assertEquals(-1.1, ioperation.getResult(1.1, 2.2), 1e-9);
     }
 }

@@ -10,6 +10,6 @@ package factorymethod;
  * It's define a interface to create a series of objects.
  */
 
-public interface IOperation {
+public interface Operation {
     public Double getResult(Double numberA, Double numberB);
 }

@@ -7,7 +7,7 @@ package factorymethod;
 /*
 An instance of a concrete product.
  */
-public class OperationMinus implements IOperation {
+public class OperationMinus implements Operation {
     @Override
     public Double getResult(Double numberA, Double numberB) {
         return numberA - numberB;
