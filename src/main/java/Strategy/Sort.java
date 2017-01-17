@@ -7,7 +7,7 @@ package strategy;
 import java.util.List;
 
 /**
- * Abstract Strategy
+ * Abstract strategy
  * Define the public interface of the algorithms.
  */
 public interface Sort<E> {

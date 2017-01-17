@@ -5,8 +5,8 @@ package factorymethod;
  */
 
 /**
- * The different between SimpleFactory and FactoryMethod is that we extract OperationFactory as an interface.
- * And for each Factory, we created the related FactoryClass Instead of the Only Factory in SimpleFactory.
+ * The different between simpleFactory and factoryMethod is that we extract OperationFactory as an interface.
+ * And for each Factory, we created the related FactoryClass Instead of the Only Factory in simpleFactory.
  * The key point is the Interface of the Factory.
  */
 public interface OperationFactory {

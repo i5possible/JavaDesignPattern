@@ -7,7 +7,7 @@ import java.util.List;
  */
 
 /**
- * Concrete Strategy.
+ * Concrete strategy.
  */
 public class BubbleSort implements Sort {
     public static void main(String[] args) throws ClassNotFoundException {

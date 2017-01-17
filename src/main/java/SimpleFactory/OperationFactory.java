@@ -7,7 +7,7 @@ import java.util.Optional;
  */
 
 /*
-The core of the SimpleFactory.
+The core of the simpleFactory.
 The class contains bussiness logic. It's used to create product.
  */
 public class OperationFactory {

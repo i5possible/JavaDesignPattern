@@ -5,8 +5,8 @@ package simplefactory;
  */
 
 /******
- * SimpleFactory*****
- * The SimpleFactory is used for create objects.
+ * simpleFactory*****
+ * The simpleFactory is used for create objects.
  * It's define a interface to create a series of objects.
  */
 
