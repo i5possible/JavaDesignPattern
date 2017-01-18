@@ -1,4 +1,4 @@
-package designprinciple.builder;
+package builder;
 
 public class ApplePhoneBuilder extends PhoneBuilder {
     @Override

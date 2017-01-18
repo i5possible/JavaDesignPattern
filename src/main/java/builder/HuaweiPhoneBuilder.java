@@ -1,4 +1,4 @@
-package designprinciple.builder;
+package builder;
 
 public class HuaweiPhoneBuilder extends PhoneBuilder {
     private Phone phone;

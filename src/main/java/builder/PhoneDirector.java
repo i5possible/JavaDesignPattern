@@ -1,4 +1,4 @@
-package designprinciple.builder;
+package builder;
 
 /**
  * Builder is used to isolate the product construct and the produce of the part.

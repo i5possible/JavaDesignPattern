@@ -1,4 +1,4 @@
-package designprinciple.facade;
+package facade;
 
 /**
  * Facade provide a consistence interface for a couple of class.

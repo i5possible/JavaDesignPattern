@@ -1,4 +1,4 @@
-package designprinciple.builder;
+package builder;
 
 public abstract class PhoneBuilder {
     abstract void buildTPLCD();
