@@ -7,7 +7,7 @@ import java.util.List;
  */
 
 /**
- * Concrete Strategy.
+ * Concrete strategy.
  */
 public class SelectSort implements Sort {
     @Override
