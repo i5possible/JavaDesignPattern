@@ -1,6 +1,6 @@
 package adapter;
 
-public class Adapter extends Target{
+public class Adapter extends Target {
     private Adaptee adaptee;
     private String additionalInfo;
 
@@ -8,7 +8,7 @@ public class Adapter extends Target{
         this.adaptee = adaptee;
     }
 
-    public void doSomething () {
+    public void doSomething() {
         adaptee.doSomething();
     }
 }

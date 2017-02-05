@@ -44,7 +44,7 @@ public class GameRole {
     }
 
     public RoleStateMemento saveRoleState() {
-        return new RoleStateMemento(attack,defense,speed);
+        return new RoleStateMemento(attack, defense, speed);
     }
 
     public void recoveryRoleState(RoleStateMemento roleStateMemento) {
