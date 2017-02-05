@@ -1,4 +1,4 @@
-package state;
+package state.workstate;
 
 public class WorkStateMain {
     public static void main(String[] args) {

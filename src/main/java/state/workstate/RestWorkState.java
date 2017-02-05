@@ -1,4 +1,4 @@
-package state;
+package state.workstate;
 
 public class RestWorkState extends WorkState {
     @Override

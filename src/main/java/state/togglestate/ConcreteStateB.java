@@ -1,4 +1,4 @@
-package state;
+package state.togglestate;
 
 public class ConcreteStateB extends State {
     @Override

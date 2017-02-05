@@ -1,4 +1,4 @@
-package state;
+package state.togglestate;
 
 public class Main {
     public static void main(String[] args) {

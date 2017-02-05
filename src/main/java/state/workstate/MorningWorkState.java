@@ -1,4 +1,4 @@
-package state;
+package state.workstate;
 
 public class MorningWorkState extends WorkState {
     @Override
