@@ -6,10 +6,6 @@ package factorymethod;
  * simpleFactory*****
  * The simpleFactory is used for create objects.
  * It's define a interface to create a series of objects.
- * <p>
- * simpleFactory*****
- * The simpleFactory is used for create objects.
- * It's define a interface to create a series of objects.
  */
 
 /******

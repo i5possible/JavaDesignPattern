@@ -6,7 +6,7 @@ import java.util.Observer;
 /**
  * Created by holian on 2017/1/18.
  */
-public class NewsObserver implements Observer {
+public class NewsObserver implements Observer{
     private String name;
 
     public NewsObserver() {
@@ -23,7 +23,6 @@ public class NewsObserver implements Observer {
     public void setName(String name) {
         this.name = name;
     }
-
     @Override
     public void update(Observable o, Object arg) {
         NewsObservable newsObservable = (NewsObservable) o;

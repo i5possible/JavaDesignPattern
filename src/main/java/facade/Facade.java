@@ -3,14 +3,14 @@ package facade;
 /**
  * Facade provide a consistence interface for a couple of class.
  * It's easier to call many classes' method in a giving order.
- * <p>
+ *
  * 1. Facade is a nice implementation of LoD and DependencyInversion. So, when you do the design of a system, you
- * can try to isolate different layer and use Facade to simplify the design.
+ *      can try to isolate different layer and use Facade to simplify the design.
  * 2. When ths class and the method become more and more that you barely can tell which method or class is the best
- * choice to use, you need to use facade to package some of them to make the code clearer.
+ *      choice to use, you need to use facade to package some of them to make the code clearer.
  * 3. When you have a existing system and you have to interact with it, especially ths system have tough design or
- * bad code quality, and you don't want to refactor the code, you can add some facades to them. So you don't need
- * to deal with the system directly, you interact with the facade only.
+ *      bad code quality, and you don't want to refactor the code, you can add some facades to them. So you don't need
+ *      to deal with the system directly, you interact with the facade only.
  */
 public class Facade {
     SubSystemOne subSystemOne;
@@ -25,6 +25,17 @@ public class Facade {
         this.subSystemFour = subSystemFour;
     }
 
+    public void methodA () {
+        subSystemOne.methodOne();
+        subSystemTwo.methodtTwo();
+        subSystemFour.methodFour();
+    }
+    
+    public  void methodB () {
+        subSystemOne.methodOne();
+        subSystemThree.methodThree();
+    }
+
     public static void main(String[] args) {
         SubSystemOne subSystemOne = new SubSystemOne();
         SubSystemTwo subSystemTwo = new SubSystemTwo();
@@ -33,17 +44,6 @@ public class Facade {
         Facade facade = new Facade(subSystemOne, subSystemTwo, subSystemThree, subSystemFour);
         facade.methodA();
         facade.methodB();
-    }
-
-    public void methodA() {
-        subSystemOne.methodOne();
-        subSystemTwo.methodtTwo();
-        subSystemFour.methodFour();
-    }
-
-    public void methodB() {
-        subSystemOne.methodOne();
-        subSystemThree.methodThree();
     }
 }
 

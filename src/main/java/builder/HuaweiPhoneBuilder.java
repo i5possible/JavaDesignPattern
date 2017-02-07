@@ -2,7 +2,6 @@ package builder;
 
 public class HuaweiPhoneBuilder extends PhoneBuilder {
     private Phone phone;
-
     @Override
     void buildTPLCD() {
         System.out.println("Build Huawei TPLCD.");
