@@ -2,6 +2,10 @@ package responsibility.chain;
 
 import java.util.Arrays;
 
+/**
+ * The responsibility chain pattern is used for the event processing in a line.
+ * If  the request isn't in a handler's duty scope, it just throw the request to the next handler.
+ */
 public class Main {
     public static void main(String[] args) {
         Handler concreteHandler1 = new ConcreteHandler1();
