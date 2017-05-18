@@ -1,4 +1,4 @@
-package factorymethod;
+package factory.method;
 
 import org.junit.Assert;
 import org.junit.Test;

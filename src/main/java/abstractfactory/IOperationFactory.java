@@ -6,10 +6,10 @@ package abstractfactory;
 
 /**
  * It's the Abstract Factory.
- * The different betweent factoryMethod and abstractFactory is that the factory interface in abstractFactory can
+ * The different betweent factoryMethod and abstractfactory is that the factory interface in abstractfactory can
  * produce kinds of Products. And the factory in factoryMethod only can create a type of product.
  * <p>
- * REFLECTION can be used to improve the abstractFactory.
+ * REFLECTION can be used to improve the abstractfactory.
  */
 
 public interface IOperationFactory {

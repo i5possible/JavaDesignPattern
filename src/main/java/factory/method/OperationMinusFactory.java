@@ -1,4 +1,4 @@
-package factorymethod;
+package factory.method;
 
 /**
  * Created by hliang on 08/12/2016.
@@ -7,9 +7,9 @@ package factorymethod;
 /*
 And instance of concrete factory.
  */
-public class OperationAddFactory implements OperationFactory {
+public class OperationMinusFactory implements OperationFactory {
     @Override
     public Operation getOperation() {
-        return new OperationAdd();
+        return new OperationMinus();
     }
 }
